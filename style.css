@@ -24,8 +24,8 @@ main {
 main .logo {
   height: 100px;
   margin: 50px;
-  animation: rotate-scale-up 1s cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite
-    both;
+  /* animation: rotate-scale-up 1s cubic-bezier(0.785, 0.135, 0.15, 0.86) infinite
+    both; */
 }
 
 @keyframes rotate-scale-up {
