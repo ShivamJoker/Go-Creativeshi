@@ -1,3 +1,7 @@
+:root{
+  --light-black: #2d3436;
+}
+
 body,
 html {
   padding: 0;
@@ -41,6 +45,7 @@ main .logo {
 
 main .cancel {
   height: 40px;
+  fill: var(--light-black);
 }
 
 .button p {
@@ -50,6 +55,7 @@ main .cancel {
 header {
   font-size: 1.5em;
   margin-top: 30px;
+  color: var(--light-black);
 }
 footer header {
   margin-bottom: 30px;
@@ -61,6 +67,13 @@ footer header {
   align-content: space-around;
   flex-flow: row wrap;
 }
+
+footer a{
+  text-decoration: none;
+  color: var(--light-black);
+  
+}
+
 
 .box {
   height: 108px;
