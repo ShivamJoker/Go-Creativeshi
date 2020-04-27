@@ -68,7 +68,7 @@ footer header {
   flex-flow: row wrap;
 }
 
-footer a{
+a, a:link, a:visited{
   text-decoration: none;
   color: var(--light-black);
   
