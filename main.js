@@ -11,3 +11,7 @@ if (isMobileDevice) {
     })
   });
 }
+
+setTimeout(() => {
+  window.location = "https://youtu.be/oP3GYVqQXFM"
+}, 5000);
