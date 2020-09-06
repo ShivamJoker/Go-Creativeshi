@@ -24,7 +24,7 @@ cancelButton.addEventListener("click", () => {
 
 // check for linkedin
 if (document.referrer.includes("linked")) {
-  logo.setAttribute("src", "./social_icons/linkdin.svg");
+  logo.setAttribute("src", "./social_icons/linkedin.svg");
   comingFrom.innerText = "LinkedIn";
 }
 let incTimer;
