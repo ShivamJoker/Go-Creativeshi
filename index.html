@@ -1,52 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>You are being redirected to Github</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>You are being redirected to Github</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
+  <body>
+    <main>
+      <header>
+        It seems you are coming from <br /><span class="coming-from">Instagram </span>
+      </header>
+      <img src="./social_icons/Instagram.svg" class="logo" alt="Instagram" />
+      <h2>Redirecting you to <a href="#">Youtube</a></h2>
+      <p>In <time>5</time> seconds</p>
+      <div class="button cancel-btn">
+        <img src="./cancel.svg" class="cancel" alt="Cancel button" />
+        <p>Cancel</p>
+      </div>
+    </main>
+    <footer>
+      <header>Go somewhere else</header>
+      <section class="others">
+        <a target="self" href="https://creativeshi.com/">
+          <div class="box">My portfolio website</div>
+        </a>
+        <a target="self" href="https://www.youtube.com/creativeje">
+          <div class="box">Creative JE Youtube</div>
+        </a>
+        <a target="self" href="https://www.youtube.com/PadhegaIndiaYT">
+          <div class="box">Padhenga IN Youtube</div>
+        </a>
+        <break></break>
+        <a target="self" href="https://github.com/shivamjoker">
+          <div class="box">My Github</div>
+        </a>
+        <a target="self" href="https://discord.gg/9YKmjM4">
+          <div class="box">My Discord</div>
+        </a>
+        <a target="self" href="https://instagram.com/jokershivam">
+          <div class="box">My Instagram</div>
+        </a>
+      </section>
+    </footer>
+    <div class="progress"></div>
 
-<body>
-  <main>
-    <header>
-      It seems you are coming from <br /><span>Instagram </span>
-    </header>
-    <img src="./social_icons/Instagram.svg" class="logo" alt="Instagram" />
-    <h2>Redirecting you to <a href="#">Youtube</a></h2>
-    <p>In <time>5</time> seconds</p>
-    <div class="button">
-      <img src="./cancel.svg" class="cancel" alt="Cancel button" />
-      <p>Cancel</p>
-    </div>
-  </main>
-  <footer>
-    <header>Go somewhere else</header>
-    <section class="others">
-      <a target="self" href="https://creativeshi.com/">
-        <div class="box">My portfolio website</div>
-      </a>
-      <a target="self" href="https://www.youtube.com/creativeje">
-        <div class="box">Creative JE Youtube</div>
-      </a>
-      <a target="self" href="https://www.youtube.com/PadhegaIndiaYT">
-        <div class="box">Padhenga IN Youtube</div>
-      </a>
-      <break></break>
-      <a target="self" href="https://github.com/shivamjoker">
-        <div class="box">My Github</div>
-      </a>
-      <a target="self" href="https://discord.gg/9YKmjM4">
-        <div class="box">My Discord</div>
-      </a>
-      <a target="self" href="https://instagram.com/jokershivam">
-        <div class="box">My Instagram</div>
-      </a>
-    </section>
-  </footer>
-  <div class="progress"></div>
-  <script src="main1.js"></script>
-</body>
 
+    <script>
+     const redirectTimer = setTimeout(() => {
+        window.location = "https://youtu.be/Ur5-n_D4q5A";
+      }, 5000);
+    </script>
+    <script src="main.js"></script>
+
+  </body>
 </html>

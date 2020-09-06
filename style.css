@@ -46,6 +46,7 @@ main .logo {
 main .cancel {
   height: 40px;
   fill: var(--light-black);
+  cursor: pointer;
 }
 
 .button p {
